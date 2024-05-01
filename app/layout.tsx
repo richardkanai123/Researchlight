@@ -6,7 +6,18 @@ import Header from "@/components/Header";
 
 export const metadata: Metadata = {
 	title: "SearchLight Research",
-	description: "Your trusted reliable partner in research and writing",
+	description: " Your trusted social science and research partner.",
+	keywords: "social science, research, academic, statistics, data science",
+	authors: [
+		{
+			name: "Research Team at SEARCHLIGHT RESEARCH",
+			url: "https://searchlight-research.vercel.app",
+		},
+		{
+			name: "Richard Kanai",
+			url: "github.com/richardkanai123",
+		},
+	],
 };
 
 export default function RootLayout({

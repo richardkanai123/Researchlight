@@ -38,7 +38,7 @@ const AboutBoard = () => {
 					Our team comprises seasoned experts in statistics, data science, and
 					research methodology. With a wealth of experience across various
 					disciplines, we bring a unique blend of skills that ensure the highest
-					quality of support for your research endeavors.
+					quality of support for your research endevours.
 				</CardDescription>
 			</Card>
 			<Card

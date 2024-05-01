@@ -32,7 +32,7 @@ export function LampDemo() {
 					ease: "easeInOut",
 				}}
 				className='w-full mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-xl font-medium tracking-tight text-transparent md:text-3xl'>
-				Your trusted writing and research partner.
+				Your trusted social science and research partner.
 			</motion.p>
 			<motion.div
 				initial={{ opacity: 0.5, x: 100 }}
@@ -52,7 +52,7 @@ export function LampDemo() {
 					asChild
 					variant='link'
 					size='default'>
-					<Link href='/#contact'>Contact us</Link>
+					<Link href='/#contact'>Get in touch now</Link>
 				</Button>
 			</motion.div>
 		</LampContainer>
@@ -123,9 +123,9 @@ export const LampContainer = ({
 						duration: 0.8,
 						ease: "easeInOut",
 					}}
-					className='absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400 '></motion.div>
+					className='absolute inset-auto z-30 h-0.5 w-full max-w-[30rem] -translate-y-[7rem] bg-cyan-400 '></motion.div>
 
-				<div className='absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-cyan-950 '></div>
+				{/* <div className='absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-red-950 '></div> */}
 			</div>
 
 			<div className='relative z-50 flex -translate-y-[60%] md:-translate-y-[80%] flex-col items-center px-5'>
