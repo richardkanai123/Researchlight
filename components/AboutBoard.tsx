@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 const AboutBoard = () => {
 	return (
-		<div className='mx-auto w-full p-4 grid grid-cols-1 md:grid-cols-3 gap-3'>
+		<div className='mx-auto w-full p-4 grid grid-cols-1 md:grid-cols-3 gap-3 border-slate-600 '>
 			<Card
 				className={cn(
 					"p-4 min-h-[150px] items-center align-middle rounded-none shadow-md flex flex-col justify-center gap-4 ",
