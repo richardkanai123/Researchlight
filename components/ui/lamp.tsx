@@ -125,7 +125,7 @@ export const LampContainer = ({
 					}}
 					className='absolute inset-auto z-30 h-0.5 w-full max-w-[30rem] -translate-y-[7rem] bg-cyan-400 '></motion.div>
 
-				{/* <div className='absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-red-950 '></div> */}
+				<div className='absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-cyan-950 '></div>
 			</div>
 
 			<div className='relative z-50 flex -translate-y-[60%] md:-translate-y-[80%] flex-col items-center px-5'>

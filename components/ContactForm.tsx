@@ -6,10 +6,10 @@ import { Button } from "./ui/button";
 const ContactForm = () => {
 	return (
 		<div className='mx-auto w-full p-4'>
-			<p className='text-cyan-700 text-base font-light text-center text-balance mb-2'>
+			<p className='text-cyan-700 text-lg font-light text-center text-balance mb-6'>
 				For any enquiries or concerns, reach out by filling this form
 			</p>
-			<form className='mx-auto w-full max-w-[500px] flex flex-col gap-4 align-middle justify-center text-base font-semibold text-slate-800'>
+			<form className='mx-auto w-full max-w-[500px] flex flex-col gap-6 align-middle justify-center text-base font-semibold text-slate-800 p-4 mb-4'>
 				{/* name */}
 				<input
 					type='text'
@@ -22,7 +22,7 @@ const ContactForm = () => {
 				<input
 					type='email'
 					required
-					placeholder='email address'
+					placeholder='Email address'
 					className='w-full outline-none ring-0 focus:border focus:rounded-sm border-b-2 border-cyan-500 p-2 '
 				/>
 
@@ -35,8 +35,8 @@ const ContactForm = () => {
 				/>
 
 				<Button
-					size='sm'
-					className={cn("w-full max-w-[300px] ")}>
+					size='lg'
+					className={cn("mx-auto w-full max-w-[300px] ring-0 outline-none ")}>
 					Send Message
 				</Button>
 			</form>
