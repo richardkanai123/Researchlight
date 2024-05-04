@@ -11,7 +11,7 @@ const Motionh1 = ({ text }: { text: string }) => {
 				duration: 0.75,
 				ease: "easeInOut",
 			}}
-			className='text-3xl text-primary text-center tracking-wide font-bold text-balance  mb-8 mt-2 snap-proximity '>
+			className='text-3xl text-center tracking-wide font-bold text-balance  mb-8 mt-2 snap-proximity '>
 			{text}
 		</motion.h1>
 	);

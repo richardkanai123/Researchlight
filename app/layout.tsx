@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import MainFooter from "@/components/MainFooter";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,8 @@ export default function RootLayout({
 						{children}
 					</main>
 				</div>
+
+				<MainFooter />
 			</body>
 		</html>
 	);

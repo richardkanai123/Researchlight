@@ -1,5 +1,6 @@
 import AboutBoard from "@/components/AboutBoard";
 import ContactForm from "@/components/ContactForm";
+import DonateBanner from "@/components/DonateBanner";
 import { FAQAccordion } from "@/components/FAQAccordion";
 import Motionh1 from "@/components/Motionh1";
 import ServicesBoard from "@/components/ServicesBoard";
@@ -96,10 +97,14 @@ export default function Home() {
 				<ContactForm />
 			</div>
 
+			{/* DOnate Banner */}
+
+			<DonateBanner />
+
 			{/* FAQS */}
 			<div
 				id='FAQ'
-				className='mx-auto w-full min-h-screen flex flex-col pt-16 snap-proximity'>
+				className='mx-auto w-full min-h-screen flex flex-col items-center justify-center p-4 snap-proximity'>
 				<Motionh1 text='FAQS' />
 
 				<FAQAccordion />
