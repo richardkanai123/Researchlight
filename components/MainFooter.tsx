@@ -17,6 +17,11 @@ const MainFooter = () => {
 				<p className='text-center underline text-lg'>Quick Links</p>
 				<ul className='text-center text-base list-none space-y-2'>
 					<li>
+						<Button variant='link'>
+							<Link href='/donate'>Support us</Link>
+						</Button>
+					</li>
+					<li>
 						<Link href='/'>Home</Link>
 					</li>
 					<li>
@@ -32,10 +37,6 @@ const MainFooter = () => {
 					<li>
 						<Link href='/#FAQ'>FAQS</Link>
 					</li>
-
-					<Button className='hover:bg-lime-400 hover:text-cyan-900'>
-						Donate Now
-					</Button>
 				</ul>
 			</div>
 

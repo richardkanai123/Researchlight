@@ -3,7 +3,9 @@ import { motion } from "framer-motion";
 import Motionh1 from "./Motionh1";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
 const DonateBanner = () => {
+	const Router = useRouter();
 	return (
 		<motion.div
 			// animate in by brightening
@@ -23,6 +25,7 @@ const DonateBanner = () => {
 			</p>
 
 			<Button
+				onClick={() => Router.push("/donate")}
 				className={cn(
 					"max-w-[200px] mx-auto bg-lime-500 text-cyan-700 text-lg",
 				)}
