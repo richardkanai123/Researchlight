@@ -5,6 +5,7 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 export function FAQAccordion() {
 	return (
@@ -80,6 +81,14 @@ export function FAQAccordion() {
 					Donations are greatly appreciated and help us continue our mission.
 					You can support us by contributing or collaborating with our research
 					initiatives.
+					<br />
+					<span>
+						<Link
+							className='text-sky-400 underline text-center'
+							href={"/donate"}>
+							Donate here
+						</Link>
+					</span>
 				</AccordionContent>
 			</AccordionItem>
 		</Accordion>

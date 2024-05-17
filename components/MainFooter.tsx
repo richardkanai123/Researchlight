@@ -5,10 +5,12 @@ import {
 	Facebook,
 	Github,
 	InstagramIcon,
+	MailOpenIcon,
 	MessageCirclePlusIcon,
 	PhoneForwarded,
 	PhoneForwardedIcon,
 } from "lucide-react";
+import { BsWhatsapp } from "react-icons/bs";
 
 const MainFooter = () => {
 	return (
@@ -45,38 +47,29 @@ const MainFooter = () => {
 				<div className='flex flex-col  gap-3 justify-center align-middle'>
 					<a
 						className='w-full flex items-center justify-center gap-2'
-						href='http://'
+						href='https://wa.me/25472016483'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<Facebook className='w-10 text-center h-10 text-xl ease-linear text-cyan-400 hover:text-cyan-700 bg-purple-700 transition-all hover:bg-green-500 duration-500  rounded-full p-2 ' />
-						Facebook
+						<BsWhatsapp className='w-10 text-center h-10 text-xl ease-linear text-cyan-400 hover:text-cyan-700 bg-purple-700 transition-all hover:bg-green-500 duration-500  rounded-full p-2 ' />
+						<span>Whatsapp</span>
 					</a>
 
 					<a
 						className='w-full flex items-center justify-center gap-2'
-						href='http://'
+						href='mailto:researchlight.media@gmail.com'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<InstagramIcon className='w-10 text-center h-10 text-xl ease-linear text-cyan-400 hover:text-cyan-700 bg-purple-700 transition-all hover:bg-green-500 duration-500  rounded-full p-2 ' />
-						Instagram
+						<MailOpenIcon className='w-10 text-center h-10 text-xl ease-linear text-cyan-400 hover:text-cyan-700 bg-purple-700 transition-all hover:bg-green-500 duration-500  rounded-full p-2 ' />
+						<span>Email</span>
 					</a>
 
 					<a
 						className='w-full flex items-center justify-center gap-2'
-						href='http://'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<MessageCirclePlusIcon className='w-10 text-center h-10 text-xl ease-linear text-cyan-400 hover:text-cyan-700 bg-purple-700 transition-all hover:bg-green-500 duration-500  rounded-full p-2 ' />
-						Whatsapp
-					</a>
-
-					<a
-						className='w-full flex items-center justify-center gap-2'
-						href='http://'
+						href='tel:+254720164835'
 						target='_blank'
 						rel='noopener noreferrer'>
 						<PhoneForwardedIcon className='w-10 text-center h-10 text-xl ease-linear text-cyan-400 hover:text-cyan-700 bg-purple-700 transition-all hover:bg-green-500 duration-500  rounded-full p-2 ' />
-						Call now
+						<span>Call now</span>
 					</a>
 				</div>
 			</div>
