@@ -16,9 +16,9 @@ const ContactForm = () => {
 	const [errorMessage, setErrorMessage] = useState("");
 
 	// submit function
-	const publicKey = process.env.NEXT_EMAILKEY as string;
-	const template = process.env.NEXT_EMAIL_TEMPLATE as string;
-	const serviceID = process.env.NEXT_EMAIL_SERVICE as string;
+	const publicKey = process.env.NEXT_PUBLIC_EMAILKEY as string;
+	const template = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE as string;
+	const serviceID = process.env.NEXT_PUBLIC_EMAIL_SERVICE as string;
 	const emailData = {
 		sender_name: senderName,
 		sender_email: senderEmail,
